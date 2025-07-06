@@ -11,10 +11,24 @@ The dataset used for this project was scraped from Amazon Product Pages. Pivot t
 ## Exploratory Data Analysis (EDA)
 - Data Cleaning
   - Filter was used to check for null values in the dataset.
-  - Null values were deleted
-- Helper Columns were added
-  - Main Product Category (to extract the last subcategory)
-      - The code is given as: =TRIM(RIGHT(C2,LEN(C2)-FIND("@",SUBSTITUTE(C2,"|","@",LEN(C2)-LEN(SUBSTITUTE(C2,"|",""))))))
-  - Potential Revenue (=actual_price_cell*rating_count_cell)
+- Helper Columns were added using calculated columns.
+  - Main Product Category - to extract the last subcategory
+      - formula used: =TRIM(RIGHT(C2,LEN(C2)-FIND("@",SUBSTITUTE(C2,"|","@",LEN(C2)-LEN(SUBSTITUTE(C2,"|",""))))))
+  - Potential Revenue
+      - (=actual price cell * rating count cell)
+  - Price range buckets, gotten by creating a group table and apply
+      - formula used: =VLOOKUP($E2,$V$3:$W$9,2,1), where E2=actual price, $V$3:$W$9 = the group table range with absolute referencing
+  - Rating review combined
+      - =rating + (rating_count / MAX(rating count range)
+   
+## Data Analysis
+Pivot table was used.
+
+## Results
+1. Average Discount Percentage by Category: Cable connection protectors, earpads and phone charms had the highest average discounted percentage while basic, coloured paper and 9 others had the lowest average discounted percentage (0.00)
+2.  Number of Products Listed Under Each Category: USB Cables had the highes number listed (233), followed by Smart watches smart phone and smart televisions	
+
+
+
 
 
