@@ -26,7 +26,12 @@ Pivot table was used.
 
 ## Results
 1. Average Discount Percentage by Category: Cable connection protectors, earpads and phone charms had the highest average discounted percentage while basic, coloured paper and 9 others had the lowest average discounted percentage (0.00)
-2.  Number of Products Listed Under Each Category: USB Cables had the highes number listed (233), followed by Smart watches smart phone and smart televisions	
+2. Number of Products Listed Under Each Category: USB Cables had the highes number listed (233), followed by Smart watches (78), smart phone (68) and smart televisions (63).
+3. Total number of reviews by category: USB Cables had the highes number of reviews (231), followed by Smart watches (78), smart phone (68) and smart televisions (63).
+4. Highest Rated Product: Mice and USB cables (5 ratings each)
+
+ 
+	
 
 
 
