@@ -25,13 +25,15 @@ The dataset used for this project was scraped from Amazon Product Pages. Pivot t
 Pivot table was used.
 
 ## Results
-1. Average Discount Percentage by Category: Cable connection protectors, earpads and phone charms had the highest average discounted percentage while basic, coloured paper and 9 others had the lowest average discounted percentage (0.00)
-2. Number of Products Listed Under Each Category: USB Cables had the highes number listed (233), followed by Smart watches (78), smart phone (68) and smart televisions (63).
-3. Total number of reviews by category: USB Cables had the highes number of reviews (231), followed by Smart watches (78), smart phone (68) and smart televisions (63).
-4. Highest Rated Product: Mice and USB cables (5 ratings each)
+![Dashboard 1](https://github.com/user-attachments/assets/a7400774-b58e-474a-9174-c66de4f78b62)
+![Dashboard 2](https://github.com/user-attachments/assets/c54197ff-c082-4b95-bf5d-92aee136c47d)
+![Dashboard 3](https://github.com/user-attachments/assets/7f99b11f-14ca-4b11-b894-ea609acdb194)
+![Dashboard 4](https://github.com/user-attachments/assets/15a5bf93-e423-42cb-aab4-b58da3826097)
+![Dashboard 5](https://github.com/user-attachments/assets/3317701a-9ab9-46de-a28f-c6525d376de1)
 
- 
-	
+
+
+
 
 
 
